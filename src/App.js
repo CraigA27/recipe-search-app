@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import RecipeSearchContainer from './containers/RecipeSearchContainer';
+import MainAppContainer from './containers/MainAppContainer';
 
 
 function App() {
   return (
     <div className="App">
-      <RecipeSearchContainer />
+      <MainAppContainer />
     </div>
   );
 }
